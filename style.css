@@ -15,7 +15,7 @@ header{
 height: 700px;
 back
 }
-main{
+.section-1{
     display:flex;
     justify-content:center;
     background-image: url(images/biography-bg.png);
@@ -43,6 +43,10 @@ margin-top: 50px;
    margin-left: 50px;
    width: 50%;
     
+}
+.biog{
+ font-weight: 500;
+ font-size: 40px;
 }
 .peter-img{
    
@@ -74,4 +78,26 @@ margin-top: 50px;
     border-radius: 5px;
     padding: 10px 25px 10px 25px;
     color: white;
+}
+
+.latest{
+    display: flex;
+    column-gap: 50px;
+    justify-content: center;
+}
+.section-2 h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.latest-img{
+    width: 25%;
+}
+.latest-img img{
+    width: 100%;
+}
+.section-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
